@@ -1,0 +1,34 @@
+.home {
+  color: #fff;
+}
+.nav {
+  margin-bottom: 15px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.input input:first-child {
+  margin-right: 15px;
+}
+
+.login {
+  display: inline;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.userListLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+}
