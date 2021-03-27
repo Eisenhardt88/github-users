@@ -8,7 +8,7 @@ export const Layout = ({ children }) => {
     <>
       <AppBar className='layout__header' position='static'>
         <Link className='layout__header-link' to='/'>
-          TestTask
+          Github Users
         </Link>
       </AppBar>
       {children}
