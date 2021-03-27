@@ -9,7 +9,7 @@ import { ErrorBoundary } from './components'
 import './style.scss'
 
 export const App = () => {
-  const PUBLIC_URL = '/tt'
+  const PUBLIC_URL = '/github-users'
 
   return (
     <ErrorBoundary>
