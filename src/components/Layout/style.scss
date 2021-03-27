@@ -1,0 +1,16 @@
+.layout{
+  &__header{
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    &-link{
+      color: white;
+      font-size: 28px;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin: 10px 0;
+  cursor: pointer;
+  &__image{
+    width: 100px;
+    height: 100px;
+    img{
+      max-width: 100%;
+      object-fit: contain;
+    }
+  }
+  &__login{
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  &__link{
+    color: black;
+    &:hover{
+      color: green;
+    }
+  }
+}

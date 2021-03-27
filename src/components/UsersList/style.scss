@@ -1,0 +1,25 @@
+.users-list{
+  width: 1024px;
+  max-width: 90%;
+  margin: 0 auto;
+  &__options{
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 25px;
+    &-select,
+    &-input {
+      margin: 5px 0;
+    }
+    &-select > .MuiFormControl-root{
+      min-width: 200px;
+      margin-right: 30px;
+    }
+    &-input > .MuiFormControl-root{
+      width: 145px;
+    }
+  }
+  &__list{
+    align-items: center;
+  }
+}
